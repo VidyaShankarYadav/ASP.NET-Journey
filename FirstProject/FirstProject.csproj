@@ -83,6 +83,7 @@
     <Content Include="Success3.aspx" />
     <Content Include="ValidationControl2.aspx" />
     <Content Include="ValidationControl3.aspx" />
+    <Content Include="ValidationControl4.aspx" />
     <Content Include="ValidationControls.aspx" />
     <Content Include="Web.config" />
     <Content Include="XMLListControl.aspx" />
@@ -182,6 +183,13 @@
     </Compile>
     <Compile Include="ValidationControl3.aspx.designer.cs">
       <DependentUpon>ValidationControl3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationControl4.aspx.cs">
+      <DependentUpon>ValidationControl4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationControl4.aspx.designer.cs">
+      <DependentUpon>ValidationControl4.aspx</DependentUpon>
     </Compile>
     <Compile Include="ValidationControls.aspx.cs">
       <DependentUpon>ValidationControls.aspx</DependentUpon>
