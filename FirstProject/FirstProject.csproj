@@ -81,6 +81,9 @@
     <Content Include="Product.xml" />
     <Content Include="RespondForm.aspx" />
     <Content Include="Success3.aspx" />
+    <Content Include="ValidationControl2.aspx" />
+    <Content Include="ValidationControl3.aspx" />
+    <Content Include="ValidationControls.aspx" />
     <Content Include="Web.config" />
     <Content Include="XMLListControl.aspx" />
   </ItemGroup>
@@ -165,6 +168,27 @@
     </Compile>
     <Compile Include="Success3.aspx.designer.cs">
       <DependentUpon>Success3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationControl2.aspx.cs">
+      <DependentUpon>ValidationControl2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationControl2.aspx.designer.cs">
+      <DependentUpon>ValidationControl2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationControl3.aspx.cs">
+      <DependentUpon>ValidationControl3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationControl3.aspx.designer.cs">
+      <DependentUpon>ValidationControl3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationControls.aspx.cs">
+      <DependentUpon>ValidationControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationControls.aspx.designer.cs">
+      <DependentUpon>ValidationControls.aspx</DependentUpon>
     </Compile>
     <Compile Include="XMLListControl.aspx.cs">
       <DependentUpon>XMLListControl.aspx</DependentUpon>
