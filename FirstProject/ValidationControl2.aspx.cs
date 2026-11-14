@@ -22,7 +22,7 @@ namespace FirstProject
 
         protected void datebutton_Click(object sender, EventArgs e)
         {
-            Calendar1.Visible = !Calendar1.Visible;
+           Calendar1.Visible = !Calendar1.Visible;
         }
 
         protected void Button1_Click(object sender, EventArgs e)
